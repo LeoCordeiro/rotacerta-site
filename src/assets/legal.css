@@ -1,0 +1,72 @@
+/* Páginas legais — mesma linguagem do resto do site: nevoa, cartão com sombra,
+   canto arredondado, Archivo nos títulos. */
+
+.legal-hero {
+  background: var(--nevoa);
+  border-bottom: 1px solid var(--fio);
+  padding: 128px 0 44px;
+}
+.legal-eyebrow {
+  display: inline-block;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: .14em;
+  text-transform: uppercase;
+  color: var(--azul-esc);
+  margin-bottom: 12px;
+}
+.legal-title {
+  font-family: 'Archivo', sans-serif;
+  font-weight: 800;
+  font-size: clamp(28px, 3.6vw, 46px);
+  letter-spacing: -.035em;
+  line-height: 1.05;
+  color: var(--tinta);
+}
+.legal-sub {
+  margin-top: 16px;
+  font-size: 16px;
+  line-height: 1.6;
+  color: var(--texto);
+  max-width: 560px;
+}
+
+.legal-col { padding-top: 44px; padding-bottom: 72px; }
+
+.legal-bloco {
+  max-width: 840px;
+  background: #fff;
+  border: 1px solid var(--fio);
+  border-radius: var(--r);
+  box-shadow: var(--sombra);
+  padding: 40px 44px 44px;
+}
+
+.legal-updated {
+  font-size: 13px;
+  color: var(--texto-fraco);
+  padding-bottom: 22px;
+  margin-bottom: 6px;
+  border-bottom: 1px solid var(--fio);
+}
+.legal-h {
+  font-family: 'Archivo', sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  letter-spacing: -.025em;
+  color: var(--tinta);
+  margin: 32px 0 10px;
+}
+.legal-p {
+  font-size: 15px;
+  line-height: 1.75;
+  color: var(--texto);
+  margin-bottom: 14px;
+}
+.legal-p strong { color: var(--tinta); font-weight: 700; }
+.legal-link { color: var(--azul-esc); font-weight: 600; }
+
+@media (max-width: 700px) {
+  .legal-hero { padding: 104px 0 34px; }
+  .legal-bloco { padding: 26px 22px 30px; }
+}

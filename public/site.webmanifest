@@ -1,0 +1,15 @@
+{
+  "name": "Rota Certa Fretes",
+  "short_name": "Rota Certa",
+  "description": "Frete urbano em São Paulo: orçamento na hora e o motorista ideal para o seu carregamento.",
+  "icons": [
+    { "src": "brand/favicon.svg", "sizes": "any", "type": "image/svg+xml" },
+    { "src": "img/icons/android-chrome-192x192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "img/icons/android-chrome-512x512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "img/icons/maskable-512x512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "theme_color": "#14284B",
+  "background_color": "#F1F3F6",
+  "start_url": "./",
+  "display": "standalone"
+}
